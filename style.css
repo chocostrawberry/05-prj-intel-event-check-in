@@ -235,6 +235,11 @@ button .fas {
   background-image: linear-gradient(90deg, #0071c5, #00aeef);
   border-radius: 10px;
   transition: width 0.6s ease;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8px; ;
 }
 
 /* Adjust spacing between components */
@@ -250,7 +255,7 @@ button .fas {
   border-radius: 8px;
   color: #333;
   margin-bottom: 15px;
-  display: none;
+  display: flex;
 }
 
 .success-message {
